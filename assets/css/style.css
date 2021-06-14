@@ -133,7 +133,7 @@ body{
 /* when quiz is finished you see div with text in screen */
 .text-box{
     max-width: 500px;
-    background-color: #ccc;
+    background-color: #fff;
     margin: 40px auto;
     padding: 30px;
     border-radius: 10px;
@@ -155,7 +155,7 @@ body{
 /* styling custom box */
 .custom-box{
     max-width: 700px;
-    background-color: #ccc;
+    background-color: #fff;
     margin: 40px auto;
     padding: 30px;
     border-radius: 10px;
@@ -242,7 +242,7 @@ body{
     font-size: 18px;
     color: #000624;
     font-weight: 600;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     line-height: 25px;
 }
@@ -333,7 +333,7 @@ body{
 }
 
 .quiz-box .answers-indicator{
-    border-top: 1px solid #fff;
+    border-top: 1px solid #ccc;
 }
 
 .quiz-box .answers-indicator div{
@@ -384,7 +384,7 @@ body{
 }
 
 .result-box table td{
-    border: 1px solid #fff;
+    border: 1px solid #ccc;
     padding: 8px 15px;
     font-weight: 500;
     color: #000624;
@@ -511,7 +511,133 @@ input[type=submit]:hover {
     opacity: 0.8;
   }
 
+/* footer with soacial media links */
+footer{
+    height: 150px;
+}
 
+.media-icons{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.media-icons li{
+    display: inline;
+
+}
+
+.media-icons i{
+    font-size: 250%;
+    color: #e50914;
+    margin: 20px;
+}
+
+.fab:hover{
+    color: #800080;
+}
+
+.top{    
+    font-size: 200%;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.top a:visited{
+    color: #e50914;
+}
+
+.top .fas{
+    color: #e50914;
+}
+
+/* media query for desktop */
+@media(max-width: 1280px){
+    form{
+        margin-top: -250px;
+    }
+}
+
+
+/* media query for ipad */
+@media(max-width: 790px){
+    .result-box .btn{
+        margin: 15px;
+    }
+
+    .custom-box{
+        max-width: 650px;
+        margin-left: 35px;
+    }
+
+    body{
+        padding: 15px;
+    }
+
+    #cover-text{
+        width: 200px;
+        height: 100px;
+        text-transform: lowercase;
+    }
+
+    form{
+        margin-top: -150px;
+    }
+
+    
+}
+
+/* media query for mobile */
+@media(max-width: 460px){
+    #header{
+        height: 90px;
+    }
+
+    #logo{
+        margin-top: 20px;
+    }
+
+    .openbtn{
+        display: none;
+    }
+
+    #landing-outer{
+        height: 400px;
+    }
+
+    .custom-box{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .wrapper{
+        height: 400px;
+    }
+
+    .wrapper h2{
+        font-size: 30px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    .newsletter .btn{
+        left: 65px;
+        margin-top: 70px;
+        background: #e50914;
+        color: #000624;
+    }
+
+    form{
+        width: 300px;
+        margin-top: -80px;
+    }
+
+    .media-icons{
+        font-size: 22px;
+    }
+
+    
+}
 
 
  
