@@ -7,6 +7,7 @@ const homeBox = document.querySelector('.home-box');
 const quizBox = document.querySelector('.quiz-box');
 const resultBox = document.querySelector('.result-box');
 const textBox = document.querySelector('.text-box');
+const formElement = document.querySelector('.form-element');
 
 let questionCounter = 0;
 let currentQuestion;
@@ -234,6 +235,23 @@ window.onload = function (){
     homeBox.querySelector('.total-question').innerHTML = quiz.length;
     
 }
+
+// form shows when press subscribe button
+function showForm(){
+    formElement.classList.remove('hide');
+    
+
+} 
+
+// hide form when press submit button
+function hideForm(){
+    formElement.classList.add('hide');       
+    
+
+}
+
+
+
 
 
 
