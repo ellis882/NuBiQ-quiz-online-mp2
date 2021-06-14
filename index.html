@@ -12,10 +12,38 @@
 </head>
 <body>
     <!--logo and collapse side bar-->
-    <header id="header"></header>
+    <header id="header">
+        <div id="logo">
+            <h1><span class="color">N</span>u<span class="color">B</span>i<span class="color">Q</span></h1>
+            <p>Quiz Online</p>
+            </div>
+
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#netflix-quiz">Quiz</a>
+                <a href="#nwsletter">Newsletter</a>
+                <a href="#social-media-links">Social Media links</a>
+            </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+                <h2>Collapsed Sidebar</h2>
+                <p>Content...</p>
+              </div>
+    </header>
 
     <!--Landing page Netflix quiz-->
-    <section id="landing-outer"></section>
+    <section id="landing-outer">
+        <div id="landing-page-image">
+            <div id="cover-text">
+            <h2 id="landing">How much do you know about Netflix?</h2>
+            <p>Play the QUIZ and find out...</p>
+            </div>
+            <div class="text-box hide">
+                <p class="greeting"></p>
+            </div>            
+        </div> 
+    </section>
 
     <!--HTML that requires input for quiz in JavaScript-->
     
