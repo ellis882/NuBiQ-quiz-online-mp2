@@ -102,7 +102,37 @@
     </section>
 
     <!--Newsletter section-->
-    <section id="nwsletter"></section>
+    <section id="nwsletter">
+        <div class="wrapper flex-container">
+            <div class="newsletter-image">                
+               <h2>Subscribe to our Newsletter</h2>
+               <p>Stay updated and KEEP CHALLENGING YOURSELF with a new QUIZ every week!</p>
+            
+            <div class="newsletter">         
+               <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
+               <i class="fas fa-envelope"></i>
+               <button class="btn" onclick="showForm()">Subscribe</button>
+            </div>
+            </div>
+
+            <div class="form-element hide">
+            <form  class="form" action="https://formdump.codeinstitute.net" method="POST">
+                <div class="container">
+                    <input type="text" placeholder="Enter Your Name" name="name" required>
+                    <input type="text" placeholder="Enter Your Email" name="email" required>
+                    <label>
+                      <input type="checkbox" checked="checked" name="submit"> Weekly Newsletter
+                    </label>
+                  </div>
+                
+                  <div class="container">
+                    <input type="submit" value="Submit" onclick="hideForm()">
+                  </div>
+            </form>
+            </div>
+                         
+        </div>
+    </section>
 
     <!--Footer with social media links--> 
     <footer id="social-media-links"></footer> 
