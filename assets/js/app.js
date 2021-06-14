@@ -152,6 +152,17 @@ function next(){
     }
 }
 
+function quizOver(){
+    // hide quiz box
+    quizBox.classList.add('hide');
+    // show result box
+    resultBox.classList.remove('hide');
+
+    yourResult();
+
+
+}
+
 // get the quiz result
 function yourResult(){
     resultBox.querySelector('.total-question').innerHTML = quiz.length; 
@@ -166,7 +177,63 @@ function yourResult(){
 
 }
 
+function resetQuiz(){
+    questionCounter = 0;
+    correctAnswers = 0;
+    attempt = 0;
+    
+}
 
+
+function tryAgainQuiz(){
+    // hide the resultbox
+    resultBox.classList.add('hide');    
+    // show the quizbox
+    quizBox.classList.remove('hide');
+    // hide text box and text
+    textBox.classList.add('hide');
+    textBox.querySelector('.greeting').innerHTML = '';
+            
+    resetQuiz();
+    startQuiz();
+    
+}
+
+function goToHome(){
+    // hide result box
+    resultBox.classList.add('hide');    
+    // show home box
+    homeBox.classList.remove('hide');
+    // hide text box and text
+    textBox.classList.add('hide');
+    textBox.querySelector('.greeting').innerHTML = '';      
+    resetQuiz();    
+
+}
+
+
+// #### STARTING POINT ####
+
+function startQuiz(){
+    
+    // hide home box
+    homeBox.classList.add('hide');
+    // show quiz box
+    quizBox.classList.remove('hide');
+        
+    // set questions in availableQuestions Array
+    setAvailableQuestions();
+    // call getNewQuestion(); function
+    getNewQuestion();
+    // to create indicator of answers
+    answersIndicator();
+    
+}
+
+window.onload = function (){
+    homeBox.querySelector('.total-question').innerHTML = quiz.length;
+    
+}
 
 
 
