@@ -22,13 +22,13 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "250px";
   }
   
-  /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-  function closeNav() {
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
   }
 
-  // push the questions into availableQuestions Array
+// push the questions into availableQuestions Array
 function setAvailableQuestions(){
     const totalQuestion = quiz.length;
     for(let i = 0; i < totalQuestion; i++){
@@ -84,7 +84,50 @@ function getNewQuestion(){
 
    }
 
-   function answersIndicator(){
+// get the result of current attempt question
+function getResult(element){
+    const id = parseInt(element.id);
+    // get the answer by comparing the id of clicked option
+    if(id === currentQuestion.answer){
+        // set green color to correct option
+        element.classList.add('correct');
+        // add the indicator to correct mark
+        updateAnswerIndicator('correct');
+        correctAnswers++;
+    }
+    else{
+        // set red color to wrong option
+        element.classList.add('wrong');
+        // add the indicator to wrong mark
+        updateAnswerIndicator('wrong');
+
+        // if the answer is incorrect show the correct option by adding green color the correct option
+        const optionLen = optionContainer.children.length;
+        for(let i = 0; i < optionLen; i++ ){
+            if(parseInt(optionContainer.children[i].id) === currentQuestion.answer){
+                optionContainer.children[i].classList.add('correct');
+
+            }
+        }
+
+
+    }
+    attempt++;
+    unclickableOptions();
+
+}
+
+// make all the options unclickable once the user select a option (RESTRICT THE USER TO CHANGE THE OPTION AGAIN)
+function unclickableOptions(){
+    const optionLen = optionContainer.children.length;
+    for(let i = 0; i < optionLen; i++){
+        optionContainer.children[i].classList.add('already-answered');
+
+    }
+
+}
+
+function answersIndicator(){
     answersIndicatorContainer.innerHTML = '';
     const totalQuestion = quiz.length;
     for( let i = 0; i < totalQuestion; i++){
@@ -108,3 +151,20 @@ function next(){
         getNewQuestion();
     }
 }
+
+// get the quiz result
+function yourResult(){
+    resultBox.querySelector('.total-question').innerHTML = quiz.length; 
+    resultBox.querySelector('.total-attempt').innerHTML = attempt;
+    resultBox.querySelector('.total-correct').innerHTML = correctAnswers;
+    resultBox.querySelector('.total-wrong').innerHTML = attempt - correctAnswers;
+    const percentage = (correctAnswers / quiz.length) * 100;
+    resultBox.querySelector('.percentage').innerHTML = percentage.toFixed(2) + '%';
+    resultBox.querySelector('.total-score').innerHTML = correctAnswers + '/' + quiz.length;
+    textBox.classList.remove('hide');
+    textBox.querySelector('.greeting').innerHTML = 'Thanks For Playing!';
+
+}
+
+
+
