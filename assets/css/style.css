@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    background-color: #000624;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+/* logo */
+#header{
+    height: 100px;
+    background: #000624;
+}
+
+#logo{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 130%;
+    text-align: center;
+}
+
+.color{
+    color: #e50914;
+}
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; 
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; 
+    z-index: 1;  
+    top: 0;
+    left: 0;
+    background-color: #000624;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e50914;
+    display: block;
+    transition: 0.3s;
+  }
+  
+.sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+/* The button used to open the sidebar */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5%;
+    position: relative;
+    bottom: 80px; 
+        
+  }
+  
+.openbtn:hover {
+    background-color: #800080;
+  }
+  
+/* Style page content - push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+ /* landing page netflix quiz */
+#landing-page-image{
+    background: url(../images/N-quiz-img.jpg) no-repeat center center;
+    width: 100%;    
+    height: 600px;
+    background-size: cover;
+}
+
+#landing-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+#cover-text{
+    font-size: 130%;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 400px;
+    height: 300px;
+    
+    margin: auto;
+    padding-top: 20px;
+    line-height: 40px;
+
+    color: #fff;
+        
+}
+
+#cover-text p, #landing{
+    text-align: center;
+}
+
+/* when quiz is finished you see div with text in screen */
+.text-box{
+    max-width: 500px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+
+.greeting{
+    font-size: 130%;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.text-box.hide{
+    display: none;
+}
+ 
