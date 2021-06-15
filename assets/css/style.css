@@ -126,7 +126,7 @@ body{
         
 }
 
-#cover-text p, #landing{
+#cover-text p, h2{
     text-align: center;
 }
 
@@ -540,10 +540,9 @@ footer{
     font-size: 200%;
     text-align: center;
     margin: 10px;
-    
 }
 
-.top a:visited{
+.top a{
     color: #e50914;
 }
 
@@ -621,7 +620,7 @@ footer{
     }
 
     .newsletter .btn{
-        left: 65px;
+        left: 100px;
         margin-top: 70px;
         background: #e50914;
         color: #000624;
@@ -637,6 +636,25 @@ footer{
     }
 
     
+}
+
+/* media query for mobile iphoneX */
+@media(max-width: 375px){
+    .newsletter-image{
+        height: 50vh;
+    }
+}
+
+/* media query for mobile */
+@media(max-width: 320px){
+    .newsletter .btn{
+        left: 65px;
+    }
+
+    .newsletter-image{
+        height: 60vh;
+    }
+
 }
 
 

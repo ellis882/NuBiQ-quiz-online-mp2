@@ -174,7 +174,7 @@ function yourResult(){
     resultBox.querySelector('.percentage').innerHTML = percentage.toFixed(2) + '%';
     resultBox.querySelector('.total-score').innerHTML = correctAnswers + '/' + quiz.length;
     textBox.classList.remove('hide');
-    textBox.querySelector('.greeting').innerHTML = 'Thanks For Playing!';
+    textBox.querySelector('.greeting').innerHTML = 'Thanks For Playing and Subscribe to our Newsletter!';
 
 }
 
