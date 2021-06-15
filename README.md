@@ -1,59 +1,113 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">NuBiQ | Online Quiz</h1>
 
-Welcome ellis882,
+[View the live project here.]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is a fictional website designed to engage the user in a unique and fun way and connect them with NuBiQ to play an online quiz every week. They can subscribe to stay updated with the current events of NuBiQ and use the social media links to stay connected with the company. 
 
-## Gitpod Reminders
+<h2 align="center"><img src=""></h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+-  ### User stories
 
-A blue button should appear to click: _Make Public_,
+    -   #### First Time Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+        1. As a First Time Visitor, I want to play a fun online quiz to test my knowledge about Netflix.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to play the quiz.
+    
+    -   #### Returning Visitor Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        1. As a Returning Visitor, I want to play a new fun quiz.
+        2. As a Returning Visitor, I want to stay connected through the social media links.
+    
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to sign up to the Newsletter to stay updated with the current events of NuBiQ.
+        
 
-A blue button should appear to click: _Make Public_,
+    -   #### Owners Goals
+        1. As a Owner, I want to make an online quiz that visitors can play a for fun.
+        2. As a Owner, I want to provide an entertaining quiz for visitors to test their knowledge about Netflix.
+        3. As a Owner, I want to make a good working quiz so that the visitor comes back to play more.
+        4. As a Owner, I want to provide social media links to stay connected.
+        5. As a Owner, I want to keep the visitor updated with new quizzes and current events.
 
-Another blue button should appear to click: _Open Browser_.
+-  ### Design
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    -   #### Colour Scheme
+        -   The two main colours used are Red and Dark Blue. Used white and a little bit of Purple color for contrast.
 
-To log into the Heroku toolbelt CLI:
+    -   #### Typography
+        -   The Lato font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Lato means 'Summer' in Polish. It is easy and clear to read and belongs to the three most popular font sizes used.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    -   #### Imagery
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. The big red N and dark Blue background are catching for the eye.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+*  ### Wireframes
 
-## Updates Since The Instructional Video
+    -   Desktop Wireframe - [View]()
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    -   Tablet Wireframe - [View]()
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    -   Mobile Wireframe - [View]()
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Features
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    -   Responsive on all device sizes
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    -   Interactive elements like the sidebar for navigation, the quiz boxes and pop up box after playing, and the subscribe     button with a form to submit. In the footer you can find the social media links.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+   ### Features left to implement in the future
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    -   Submit name and email to receive a Newsletter and stay updated with new quizzes every week.
+    -   Every week there will be a new type of quiz to play with another subject.
+    -   The quiz is made that you just change the questions for a new quiz (in the file questions.js) and change the text on the landing page and the image of the newsletter section. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Technologies Used
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+   ### Languages Used
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript]()
 
----
+### Frameworks, Libraries & Programs Used
 
-Happy coding!
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Lato' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used for the social media links and the envelope to enter your email for the Newsletter.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+    ## Testing
+
+The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES6 were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [JavaScript Validator ES6](https://www.piliapp.com/syntax-check/es6/) - [Results]() [Results]()
+
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to play a fun online quiz to test my knowledge about Netflix.
+
+        1. Upon entering the site, users are seeing that the quiz questions are about Netflix and they can easily start and play the quiz when push the start button. 
+        2. After each question they know if the answer is wright or wrong through the color red or green. Than they go to the next question with the next button.
+        3. When they have finished the quiz they get the results right away in a clear table and they can choose to play again or go to the homebox.
+
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to play the quiz.
+
+        1. The site has been designed to be clear and easy to use with not a lot of text. At the top of the page there is a side navigation bar that opens when you click on the hamburger button. When you click on a link you go to that section. 
+        2. You can play the quiz, subscribe to the Newsletter and connect through the social media links.
+        3. It is a one page website for entertaining purpose and a options to be updated and play different quizzes every week.
+
+    
+-   #### Returning Visitor Goals
+
+    
