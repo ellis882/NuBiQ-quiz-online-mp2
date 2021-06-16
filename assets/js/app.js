@@ -236,19 +236,7 @@ window.onload = function (){
     
 }
 
-// form shows when press subscribe button
-function showForm(){
-    formElement.classList.remove('hide');
-    
 
-} 
-
-// hide form when press submit button
-function hideForm(){
-    formElement.classList.add('hide');       
-    
-
-}
 
 
 
