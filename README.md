@@ -233,7 +233,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
     ### Content
 
--   All content for the Netflix quiz questions came from [Manchester evening news](https://www.manchestereveningnews.co.uk/whats-on/family-kids-news/netflix-quiz-try-20-questions-19609408)
+-   All content for the Netflix quiz questions came from [Manchester evening news](https://www.manchestereveningnews.co.uk/whats-on/family-kids-news/netflix-quiz-try-20-questions-19609408) and [Cambridge-news](https://www.cambridge-news.co.uk/news/uk-world-news/netflix-tv-quiz-questions-answers-18206222)
 
 
     ### Media
