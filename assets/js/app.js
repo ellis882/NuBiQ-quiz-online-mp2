@@ -7,7 +7,8 @@ const homeBox = document.querySelector('.home-box');
 const quizBox = document.querySelector('.quiz-box');
 const resultBox = document.querySelector('.result-box');
 const textBox = document.querySelector('.text-box');
-const formElement = document.querySelector('.form-element');
+const questionLimit = 12;
+
 
 let questionCounter = 0;
 let currentQuestion;
@@ -41,7 +42,7 @@ function setAvailableQuestions(){
 // set question number and question and options
 function getNewQuestion(){
     // set question number
-    questionNumber.innerHTML = 'Question' + (questionCounter + 1) + 'of' + quiz.length;
+    questionNumber.innerHTML = 'Question' + (questionCounter + 1) + 'of' + questionLimit;
 
     // set question text
     // get random question
@@ -130,7 +131,7 @@ function unclickableOptions(){
 
 function answersIndicator(){
     answersIndicatorContainer.innerHTML = '';
-    const totalQuestion = quiz.length;
+    const totalQuestion = questionLimit;
     for( let i = 0; i < totalQuestion; i++){
         const indicator = document.createElement('div');
         answersIndicatorContainer.appendChild(indicator);
@@ -144,7 +145,7 @@ function updateAnswerIndicator(markType){
 }
 
 function next(){
-    if (questionCounter === quiz.length){
+    if (questionCounter === questionLimit){
         console.log('quiz over');
         quizOver();
     }
@@ -166,13 +167,13 @@ function quizOver(){
 
 // get the quiz result
 function yourResult(){
-    resultBox.querySelector('.total-question').innerHTML = quiz.length; 
+    resultBox.querySelector('.total-question').innerHTML = questionLimit; 
     resultBox.querySelector('.total-attempt').innerHTML = attempt;
     resultBox.querySelector('.total-correct').innerHTML = correctAnswers;
     resultBox.querySelector('.total-wrong').innerHTML = attempt - correctAnswers;
     const percentage = (correctAnswers / quiz.length) * 100;
     resultBox.querySelector('.percentage').innerHTML = percentage.toFixed(2) + '%';
-    resultBox.querySelector('.total-score').innerHTML = correctAnswers + '/' + quiz.length;
+    resultBox.querySelector('.total-score').innerHTML = correctAnswers + '/' + questionLimit;
     textBox.classList.remove('hide');
     textBox.querySelector('.greeting').innerHTML = 'Thanks For Playing and Subscribe to our Newsletter!';
 
@@ -182,7 +183,7 @@ function resetQuiz(){
     questionCounter = 0;
     correctAnswers = 0;
     attempt = 0;
-    
+    availableQuestions = [];
 }
 
 
@@ -232,7 +233,7 @@ function startQuiz(){
 }
 
 window.onload = function (){
-    homeBox.querySelector('.total-question').innerHTML = quiz.length;
+    homeBox.querySelector('.total-question').innerHTML = questionLimit;
     
 }
 
