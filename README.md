@@ -1,4 +1,4 @@
-<h1 align="center">NuBiQ | Online Quiz</h1>
+<h1 align="center">NuBiQ | Quiz Online</h1>
 
 [View the live project here.](https://ellis882.github.io/NuBiQ-quiz-online-mp2/)
 
