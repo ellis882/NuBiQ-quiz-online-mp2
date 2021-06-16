@@ -1,10 +1,10 @@
 <h1 align="center">NuBiQ | Online Quiz</h1>
 
-[View the live project here.]()
+[View the live project here.](https://ellis882.github.io/NuBiQ-quiz-online-mp2/)
 
 This is a fictional website designed to engage the user in a unique and fun way and connect them with NuBiQ to play an online quiz every week. They can subscribe to stay updated with the current events of NuBiQ and use the social media links to stay connected with the company. 
 
-<h2 align="center"><img src=""></h2>
+![NuBiQ](testing/am-i-responsive.png)
 
 ## User Experience (UX)
 
@@ -44,11 +44,8 @@ This is a fictional website designed to engage the user in a unique and fun way 
 
 *  ### Wireframes
 
-    -   Desktop Wireframe - [View]()
-
-    -   Tablet Wireframe - [View]()
-
-    -   Mobile Wireframe - [View]()
+    -   Wireframes Desktop, Tablet and Mobile - [View](wireframes/wireframes-milestone-project-2.pdf)
+ 
 
 ## Features
 
@@ -102,9 +99,9 @@ This is a fictional website designed to engage the user in a unique and fun way 
 
 The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES6 were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
--   [JavaScript Validator ES6](https://www.piliapp.com/syntax-check/es6/) - [Results]() [Results]()
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](testing/html-validator-w3.pdf)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](testing/css3-validator-jigsaw.pdf)
+-   [JavaScript Validator ES6](https://www.piliapp.com/syntax-check/es6/) - [Results app.js](testing/javascript-validator-app-js.pdf) & [Results questions.js](testing/javascript-validator-questions-js.pdf)
 
     ### Testing User Stories from User Experience (UX) Section
 
@@ -170,7 +167,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 
     -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
     -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5/6, iPhone 8, iPad & Ipad Pro.
-    -   The website was tested on Lighthouse for desktop and mobile. 
+    -   The website was tested on [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) for desktop and mobile. [desktop](testing/lighthouse-desktop-nubiq.pdf) & [mobile](testing/lighthouse-mobile-nubiq.pdf)
 
 -   ### Known Bugs
 
