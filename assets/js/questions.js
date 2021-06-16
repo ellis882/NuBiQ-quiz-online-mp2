@@ -61,5 +61,71 @@ const quiz = [
         q: 'In the childrens section of Netflix, users can search for films ans shows by selecting a film character', 
         options: ['true','false'],
         answer: 0
+    },
+    {
+        q: 'What was the name of the first Netflix Original feature film?', 
+        options: ['Transparent','Nations of the Zombies','Beasts of No Nation'],
+        answer: 2
+    },
+    {
+        q: 'How many series of The Crown are currently available on Netflix?', 
+        options: ['3 seasons','4 seasons','5 seasons'],
+        answer: 1
+    },
+    {
+        q: 'What is the name of the fictional town where Stranger Things is set?', 
+        options: ['Windsor','Warwick','Hawkins'],
+        answer: 2
+    },
+    {
+        q: 'What’s the name of Carole Baskins dead husband?', 
+        options: ['Don Lewis','Howard Baskin','Jeff Lowe'],
+        answer: 0
+    },
+    {
+        q: 'Carlton, Jessica and Kelly are contestants in the first season of which Netflix reality series?', 
+        options: ['Love is Blind','Married at First Sight','Too Hot to Handle'],
+        answer: 0
+    },
+    {
+        q: 'What is the name of the creator of Black Mirror?', 
+        options: ['Jon Hamm','Wyatt Russell','Daniel Kaluuva','Charlie Brooker'],
+        answer: 3
+    },
+    {
+        q: 'La Casa de Papel is the original Spanish title of which hit Netflix series?', 
+        options: ['Money Heist','Locked Up','Elite'],
+        answer: 0
+    },
+    {
+        q: 'What is Jughead Jones’ real full name in Riverdale?', 
+        options: ['Forsythe Pendleton Jones III','Cole Pendleton Sprouse II','Archibald Andrews'],
+        answer: 0
+    },
+    {
+        q: 'Who plays the voice of Gossip Girl on the television show?', 
+        options: ['Kristen Bell','Leighton Meester','Hilary Duff'],
+        answer: 0
+    },
+    {
+        q: 'What is the name of Tony’s dog in After Life?', 
+        options: ['Bailey','Charlie','Brandy'],
+        answer: 2
+    },
+    {
+        q: 'Who plays Pablo Escobar in Narcos?', 
+        options: ['Quinn Dalton','Pedro Pascal','Boyd Holbrook','Wagner Moura'],
+        answer: 3
+    },
+    {
+        q: 'What is the name of the school in Sex Education?', 
+        options: ['Junior High','Moordale High','Torance High'],
+        answer: 1
+    },
+    {
+        q: 'Season one of You sees Joe Goldberg meet Guinevere Beck at his place of work, but what job does he do?', 
+        options: ['Barista','Supermarket manager','Bookstore manager','Taxi driver'],
+        answer: 2
     }
+
 ]
