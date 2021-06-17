@@ -176,8 +176,17 @@ function yourResult(){
     resultBox.querySelector('.total-score').innerHTML = correctAnswers + '/' + questionLimit;
     textBox.classList.remove('hide');
     textBox.querySelector('.greeting').innerHTML = 'Thanks For Playing and Subscribe to our Newsletter!';
+    resultBox.querySelector('#your-result').innerHTML = 'Your Result' + 'input';
 
 }
+
+ let input = document.getElementById('username').value;
+
+
+
+
+
+
 
 function resetQuiz(){
     questionCounter = 0;
@@ -229,6 +238,8 @@ function startQuiz(){
     getNewQuestion();
     // to create indicator of answers
     answersIndicator();
+
+
     
 }
 

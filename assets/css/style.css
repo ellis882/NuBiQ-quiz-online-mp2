@@ -227,6 +227,12 @@ body{
     
 }
 
+#my-text{
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+}
+
 /* quiz questions and options box */
 .quiz-box .question-number,
 .quiz-box .question-text,

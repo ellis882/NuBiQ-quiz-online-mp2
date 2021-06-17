@@ -52,6 +52,7 @@
         <div class="home-box custom-box">
             <h3>Are You a True Netflix Fan...</h3>             
             <p>Total number of questions: <span class="total-question"></span></p>
+           <div id="myText"> Username: <input type="text" name="username" id="username" placeholder="  Enter Your Username"/><br></div>
             <button type="button" class="btn" onclick="startQuiz()">Let's Start</button>
         </div>
         <!--Quiz questions and Options box-->
@@ -70,7 +71,7 @@
         </div>
         <!--Result box of Netflix quiz-->
         <div class="result-box custom-box hide">
-            <h2>Your Result</h2>
+            <h2 id="your-result"></h2>
             <table>
                 <tr>
                     <td>Total Question</td>
