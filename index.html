@@ -52,7 +52,7 @@
         <div class="home-box custom-box">
             <h3>Are You a True Netflix Fan...</h3>             
             <p>Total number of questions: <span class="total-question"></span></p>
-           <div id="myText"> Username: <input type="text" name="username" id="username" placeholder="  Enter Your Username"/><br></div>
+            Username: <input type="text" name="username" id="username" placeholder="  Enter Your Username" value=""/><br>
             <button type="button" class="btn" onclick="startQuiz()">Let's Start</button>
         </div>
         <!--Quiz questions and Options box-->
@@ -71,7 +71,7 @@
         </div>
         <!--Result box of Netflix quiz-->
         <div class="result-box custom-box hide">
-            <h2 id="your-result"></h2>
+            <h2 id="your-result">Your Result</h2>
             <table>
                 <tr>
                     <td>Total Question</td>
@@ -111,10 +111,10 @@
                <p>Stay updated and KEEP CHALLENGING YOURSELF with a new QUIZ every week!</p>
             
                <div class="newsletter">
-                   <form action="#" method="POST">         
+                   <form action="https://formdump.codeinstitute.net" method="POST">         
                   <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
                   <i class="fas fa-envelope"></i>
-                  <button class="btn" input="submit">Subscribe</button>
+                  <button class="btn" type="submit">Subscribe</button>
                   </form>
                 </div>
             </div>                         

@@ -176,17 +176,9 @@ function yourResult(){
     resultBox.querySelector('.total-score').innerHTML = correctAnswers + '/' + questionLimit;
     textBox.classList.remove('hide');
     textBox.querySelector('.greeting').innerHTML = 'Thanks For Playing and Subscribe to our Newsletter!';
-    resultBox.querySelector('#your-result').innerHTML = 'Your Result' + 'input';
+    
 
 }
-
- let input = document.getElementById('username').value;
-
-
-
-
-
-
 
 function resetQuiz(){
     questionCounter = 0;
@@ -239,6 +231,9 @@ function startQuiz(){
     // to create indicator of answers
     answersIndicator();
 
+    // to add username at resultBox
+    var x = document.getElementById("username").value;
+    document.getElementById("your-result").innerHTML = 'Your Result &nbsp' + x;
 
     
 }
