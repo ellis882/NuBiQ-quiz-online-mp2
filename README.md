@@ -112,12 +112,14 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
             1. Upon entering the site, users are seeing that the quiz questions are about Netflix and they can easily start and play the quiz when push the start button. 
             2. After each question they know if the answer is right or wrong through the color green or red. Than they go to the next question with the next button.
             3. When they have finished the quiz they get the results right away in a clear table and they can choose to play again or go to the homebox.
-            4. The questions are set up random everytime you play.
+            4. The questions are set up random everytime you play. There are 25 questions in total and it displays just 12 to play. Because the questions are random picked you can play the quiz multiple times.
 
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to play the quiz.
 
-            1. The site has been designed to be clear and easy to use with not a lot of text. At the top of the page there is a side navigation bar that opens when you click on the hamburger button. When you click on a link you go to that section. 
+            1. The site has been designed to be clear and easy to use with not a lot of text. At the top of the page there is a side navigation bar that opens when you click on the hamburger button. When you click on a link you go to that section.
+            a. Known Bug is that when you click on the Quiz link it goes to the quiz section but you see also the newsletter section. This looks not that nice.
             2. You can play the quiz, subscribe to the Newsletter and connect through the social media links.
+            a. Known Bug is that i used for the form action="https://formdump.codeinstitute.net" because it is a fictional website.
             3. It is a one page website for entertaining purpose and a options to be updated and play different quizzes every week.
 
     
@@ -126,23 +128,24 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
         1. As a Returning Visitor, I want to play a new fun quiz.
 
             1. Every week you can play a new quiz with different questions if you visit the website.
+            a. Known Bug is that because it is a fictional website made for studie purpose i will not change the questions every week.
         
         2. As a Returning Visitor, I want to stay connected through the social media links.
 
             1. When you click on the social media links you can visit the page of NuBiQ and stay connected with them.
+            a. Known bug is that the links to social media are not linked to NuBiQ because it is fictional.
 
 -    #### Frequent Users Goal
 
         1. As a Frequent User, I want to sign up to the Newsletter to stay updated with the current events of NuBiQ.
 
-            1. Through the Newsletter that you receive in your email you stay updated about which quiz is coming for the next week. It is easy to subscribe with a name and email that is required to submit.
-            2. When you fill in your email and press on Subscribe than you will see a form were you can enter your name and email and submit to the Newsletter. 
+            1. Through the Newsletter that you receive in your email you stay updated about which quiz is coming for the next week. It is easy to subscribe with a entering your email that is required to submit.           
 
 -    #### Owners Goals
 
         1. As a Owner, I want to make an online quiz that visitors can play for fun.
 
-            1. When visiting the website it is easy to navigate and see which subject the quiz is about and how many questions to answer. When you press the start button you can play the quiz and you will see the result right after. 
+            1. When visiting the website it is easy to navigate and see which subject the quiz is about and how many questions to answer. When you press the start button you can play the quiz and you will see the result right after with your username. In that way it becomes more personal and you could make a print screen and share it with friends. 
 
         2. As a Owner, I want to provide an entertaining quiz for visitors to test their knowledge about Netflix.
 
@@ -166,12 +169,14 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 -   ### Further Testing
 
     -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5/6, iPhone 8, iPad & Ipad Pro.
+    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5/SE, iPhone 6/7/8(plus), iPad & Ipad Pro.
     -   The website was tested on [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) for desktop and mobile. [desktop](testing/lighthouse-desktop-nubiq.pdf) & [mobile](testing/lighthouse-mobile-nubiq.pdf)
 
 -   ### Known Bugs
 
-    -   
+    -   On mobile devices the Enter Your Email had covered the whole width of the screen this can look out of proportion.
+    -   On mobile devices the open en closed sidebar took out to much space so that the content of the website could not be seen good. Debugged that to take away the open en closed sidebar.
+    -     
 
 ## Deployment
 
