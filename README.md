@@ -168,7 +168,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 
 -   ### Further Testing
 
-    -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+    -   The Website was tested on Google Chrome, Opera, Microsoft Edge and Mozilla Firefox.
     -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5/SE, iPhone 6/7/8(plus), iPad & Ipad Pro.
     -   The website was tested on [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) for desktop and mobile. [desktop](testing/lighthouse-desktop-nubiq.pdf) & [mobile](testing/lighthouse-mobile-nubiq.pdf)
 
