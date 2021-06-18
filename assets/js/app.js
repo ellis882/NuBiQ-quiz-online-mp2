@@ -171,7 +171,7 @@ function yourResult(){
     resultBox.querySelector('.total-attempt').innerHTML = attempt;
     resultBox.querySelector('.total-correct').innerHTML = correctAnswers;
     resultBox.querySelector('.total-wrong').innerHTML = attempt - correctAnswers;
-    const percentage = (correctAnswers / quiz.length) * 100;
+    const percentage = (correctAnswers / questionLimit) * 100;
     resultBox.querySelector('.percentage').innerHTML = percentage.toFixed(2) + '%';
     resultBox.querySelector('.total-score').innerHTML = correctAnswers + '/' + questionLimit;
     textBox.classList.remove('hide');
