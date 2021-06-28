@@ -7,6 +7,8 @@
     <meta name="description" content="Website to play a quiz to test your Netflix knowledge">
     <meta name="keywords" content="NuBiQ, quiz online, netflix-quiz, entertainment">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+        
     
     <title>NuBiQ | Quiz Online</title>
 </head>
@@ -107,7 +109,7 @@
                <p>Stay updated and KEEP CHALLENGING YOURSELF with a new QUIZ every week!</p>
             
             <div class="newsletter">
-                <form action="" method="POST" id="newsletter-form">         
+                <form onsubmit="return sendMail(this);" method="POST" id="newsletter-form">         
                 <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
                 <i class="fas fa-envelope"></i>
                 <button class="btn" type="submit">Subscribe</button>

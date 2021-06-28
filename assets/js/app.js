@@ -264,7 +264,17 @@ window.onload = function (){
     homeBox.querySelector('.total-question').innerHTML = questionLimit;    
 }
 
+//------email Newsletter
 
+(function(){
+    emailjs.init("user_7wNSV6SVFgZ5A3cLUgIdr");
+ })();
+ 
+ var template_params = {}
+ 
+ var service_id = "service_vwyz2sa";
+ var template_id = "template_d46s0st";
+ emailjs.send("service_vwyz2sa","template_d46s0st");
 
 
 
