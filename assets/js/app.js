@@ -45,6 +45,19 @@ function upperCase() {
     x.value = x.value.toUpperCase();
 }
 
+// add username to start quiz
+let input = document.querySelector("#username");
+let button = document.querySelector(".btn");
+button.disabled = true;
+input.addEventListener("change", stateHandle);
+function stateHandle() {
+  if (document.querySelector("#username").value === "") {
+    button.disabled = true;
+  } else {
+    button.disabled = false;
+  }
+}
+
 // set question number and question and options
 function getNewQuestion(){
     nextButton.classList.add('hide');
