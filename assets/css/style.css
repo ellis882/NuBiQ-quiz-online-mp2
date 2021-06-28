@@ -515,83 +515,82 @@ footer{
 
 /* media query for ipad */
 @media(max-width: 790px){
-    .result-box .btn{
-        margin: 15px;
-    }
+.result-box .btn{
+    margin: 15px;
+}
 
-    .custom-box{
-        max-width: 650px;
-        margin-left: 35px;
-    }
+.custom-box{
+    max-width: 650px;
+    margin-left: 35px;
+}
 
-    body{
-        padding: 15px;
-    }
+body{
+    padding: 15px;
+}
 
-    #cover-text{
-        width: 200px;
-        height: 100px;
-        text-transform: lowercase;
-    }
+#cover-text{
+    width: 200px;
+    height: 100px;
+    text-transform: lowercase;
+}
     
 }
 
 /* media query for mobile */
 @media(max-width: 460px){
-    #header{
-        height: 90px;
-    }
+#header{
+    height: 90px;
+}
 
-    #logo{
-        margin-top: 20px;
-    }
+#logo{
+    margin-top: 20px;
+}
 
-    .openbtn{
-        display: none;
-    }
+.openbtn{
+    display: none;
+}
 
-    #landing-outer{
-        height: 400px;
-    }
+#landing-outer{
+    height: 400px;
+}
 
-    .custom-box{
-        margin-left: 2px;
-        margin-right: 2px;
-    }
+.custom-box{
+    margin-left: 2px;
+    margin-right: 2px;
+}
 
-    .wrapper{
-        height: 400px;
-    }
+.wrapper{
+    height: 400px;
+}
 
-    .wrapper h2{
-        font-size: 30px;
-        margin: 20px;
-        text-align: center;
-    }
+.wrapper h2{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
 
-    .newsletter .btn{
-        left: 100px;
-        margin-top: 70px;
-        background: #e50914;
-        color: #000624;
-    }
+.newsletter .btn{
+    left: 100px;
+    margin-top: 70px;
+    background: #e50914;
+    color: #000624;
+}
 
-    .media-icons{
-        font-size: 22px;
-    }
-
+.media-icons{
+    font-size: 22px;
+}
     
 }
 
 /* media query for mobile */
 @media(max-width: 320px){
-    .newsletter .btn{
-        left: 65px;
-    }
+.newsletter .btn{
+    left: 65px;
+}
 
-    .newsletter-image{
-        height: 60vh;
-    }
+.newsletter-image{
+    height: 60vh;
+}
 
 }
 

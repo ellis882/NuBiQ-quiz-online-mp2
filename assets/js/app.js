@@ -22,13 +22,13 @@ let attempt = 0;
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
-  }
+}
   
 /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
 function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
-  }
+}
 
 // push the questions into availableQuestions Array
 function setAvailableQuestions(){
@@ -43,7 +43,7 @@ function setAvailableQuestions(){
 function upperCase() {
     const x = document.getElementById("username");
     x.value = x.value.toUpperCase();
-  }
+}
 
 // set question number and question and options
 function getNewQuestion(){
@@ -91,7 +91,7 @@ function getNewQuestion(){
 
     questionCounter++
 
-   }
+}
 
 // get the result of current attempt question
 function getResult(element){
@@ -158,7 +158,6 @@ function updateAnswerIndicator(markType){
 
 function next(){
     if (questionCounter === questionLimit){
-        console.log('quiz over');
         quizOver();
     }
     else{
@@ -179,8 +178,6 @@ function quizOver(){
     resultBox.classList.remove('hide');
 
     yourResult();
-
-
 }
 
 // get the quiz result
@@ -193,8 +190,7 @@ function yourResult(){
     resultBox.querySelector('.total-score').innerHTML = correctAnswers + '/' + questionLimit;
     textBox.classList.remove('hide');
     textBox.querySelector('.greeting').innerHTML = 'Thanks For Playing and Subscribe to our Newsletter!';
-    
-
+  
 }
 
 function resetQuiz(){
@@ -215,8 +211,7 @@ function tryAgainQuiz(){
     textBox.querySelector('.greeting').innerHTML = '';
             
     resetQuiz();
-    startQuiz();
-    
+    startQuiz();  
 }
 
 function goToHome(){
@@ -227,8 +222,7 @@ function goToHome(){
     // hide text box and text
     textBox.classList.add('hide');
     textBox.querySelector('.greeting').innerHTML = '';      
-    resetQuiz();    
-
+    resetQuiz(); 
 }
 
 
@@ -250,14 +244,11 @@ function startQuiz(){
 
     // to add username at resultBox
     var x = document.getElementById("username").value;
-    document.getElementById("your-result").innerHTML = 'Your Result &nbsp' + x;
-
-    
+    document.getElementById("your-result").innerHTML = 'Your Result &nbsp' + x;   
 }
 
 window.onload = function (){
-    homeBox.querySelector('.total-question').innerHTML = questionLimit;
-    
+    homeBox.querySelector('.total-question').innerHTML = questionLimit;    
 }
 
 // newsletterForm
@@ -266,11 +257,10 @@ newsletterForm.addEventListener('submit', handleSubmit);
 let email;
 function handleSubmit(event){
     event.preventDefault();
-    console.log("submitting newsletter..")
+    
     email = document.getElementsByClassName("input").value;
-    console.log(email)
-    newsletterForm.submit();
-    console.log("email submitted")
+    
+    newsletterForm.submit();   
     
 }
 
