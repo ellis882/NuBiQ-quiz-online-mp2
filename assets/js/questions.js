@@ -43,7 +43,7 @@ const quiz = [
         answer: 2
     },
     {
-        q: 'What is the name of the new French Netflix serie about a professional thief who sets out the avenge his father for an injustice',
+        q: 'What is the name of the new French Netflix serie about a professional thief who sets out to avenge his father for an injustice',
         options: ['Lupin','Marseille','Sentinelle'],
         answer: 0
     },
@@ -123,7 +123,7 @@ const quiz = [
         answer: 1
     },
     {
-        q: 'Season one of You sees Joe Goldberg meet Guinevere Beck at his place of work, but what job does he do?', 
+        q: 'Season one of "You" sees Joe Goldberg meet Guinevere Beck at his place of work, but what job does he do?', 
         options: ['Barista','Supermarket manager','Bookstore manager','Taxi driver'],
         answer: 2
     }

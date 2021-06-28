@@ -159,6 +159,7 @@ body{
     margin: 40px auto;
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 10px -10px 3px  rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     animation: fadeInRight 1s ease;
 }
 
@@ -368,6 +369,10 @@ body{
 
 }
 
+.next-question-btn.hide{
+    display: none;
+}
+
 /* result box of quiz */
 .result-box{
     text-align: center;
@@ -446,6 +451,7 @@ body{
     width: 100%;
     padding: 30px 100px 30px 60px;
     border-radius: 5px;
+    box-shadow: 10px -10px 3px  rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     border: none;
     font-weight: bold;
 

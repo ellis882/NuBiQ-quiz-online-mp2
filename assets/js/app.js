@@ -8,7 +8,7 @@ const quizBox = document.querySelector('.quiz-box');
 const resultBox = document.querySelector('.result-box');
 const textBox = document.querySelector('.text-box');
 const questionLimit = 12;
-
+const nextButton = document.querySelector('.next-question-btn');
 
 let questionCounter = 0;
 let currentQuestion;
@@ -39,8 +39,15 @@ function setAvailableQuestions(){
 
 }
 
+// when type username change in uppercase
+function upperCase() {
+    const x = document.getElementById("username");
+    x.value = x.value.toUpperCase();
+  }
+
 // set question number and question and options
 function getNewQuestion(){
+    nextButton.classList.add('hide');
     // set question number
     questionNumber.innerHTML = 'Question' + (questionCounter + 1) + 'of' + questionLimit;
 
@@ -88,6 +95,11 @@ function getNewQuestion(){
 
 // get the result of current attempt question
 function getResult(element){
+    // show next button after you had clicked on an option
+    if( availableQuestions.length > currentQuestion.options.length){
+        nextButton.classList.remove('hide')
+    } 
+
     const id = parseInt(element.id);
     // get the answer by comparing the id of clicked option
     if(id === currentQuestion.answer){
@@ -154,6 +166,12 @@ function next(){
     }
 }
 
+nextButton.addEventListener ('click', () =>{
+    currentQuestion.options[optonIndex] ++;
+    getNewQuestion()
+
+})
+
 function quizOver(){
     // hide quiz box
     quizBox.classList.add('hide');
@@ -167,8 +185,7 @@ function quizOver(){
 
 // get the quiz result
 function yourResult(){
-    resultBox.querySelector('.total-question').innerHTML = questionLimit; 
-    resultBox.querySelector('.total-attempt').innerHTML = attempt;
+    resultBox.querySelector('.total-question').innerHTML = questionLimit;     
     resultBox.querySelector('.total-correct').innerHTML = correctAnswers;
     resultBox.querySelector('.total-wrong').innerHTML = attempt - correctAnswers;
     const percentage = (correctAnswers / questionLimit) * 100;
@@ -242,6 +259,21 @@ window.onload = function (){
     homeBox.querySelector('.total-question').innerHTML = questionLimit;
     
 }
+
+// newsletterForm
+let newsletterForm = document.getElementById("newsletter-form");
+newsletterForm.addEventListener('submit', handleSubmit);
+let email;
+function handleSubmit(event){
+    event.preventDefault();
+    console.log("submitting newsletter..")
+    email = document.getElementsByClassName("input").value;
+    console.log(email)
+    newsletterForm.submit();
+    console.log("email submitted")
+    
+}
+
 
 
 

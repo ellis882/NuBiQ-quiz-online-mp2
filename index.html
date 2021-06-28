@@ -52,8 +52,8 @@
         <div class="home-box custom-box">
             <h3>Are You a True Netflix Fan...</h3>             
             <p>Total number of questions: <span class="total-question"></span></p>
-            Username: <input type="text" name="username" id="username" placeholder="  Enter Your Username" value=""/><br>
-            <button type="button" class="btn" onclick="startQuiz()">Let's Start</button>
+            Username: <input type="text" name="name" id="username" onchange="upperCase()" placeholder="  Enter Your Username" value=""/><br>
+            <button type="button" class="btn" onclick="startQuiz()">Save & Start</button>
         </div>
         <!--Quiz questions and Options box-->
         <div class="quiz-box custom-box hide">
@@ -63,7 +63,7 @@
             </div>
             <div class="option-container">            
             </div>
-            <div class="next-question-btn">
+            <div class="next-question-btn hide">
                 <button type="button" class="btn" onclick="next()">Next</button>
             </div>
             <div class="answers-indicator">          
@@ -76,10 +76,6 @@
                 <tr>
                     <td>Total Question</td>
                     <td><span class="total-question"></span></td>
-                </tr>
-                <tr>
-                    <td>Attempt</td>
-                    <td><span class="total-attempt"></span></td>
                 </tr>
                 <tr>
                     <td>Correct</td>
@@ -111,7 +107,7 @@
                <p>Stay updated and KEEP CHALLENGING YOURSELF with a new QUIZ every week!</p>
             
                <div class="newsletter">
-                   <form action="https://formdump.codeinstitute.net" method="POST">         
+                   <form action="https://formdump.codeinstitute.net" method="POST" id="newsletter-form">         
                   <input type="email" name="email" class="input" placeholder="Enter Your Email" required>
                   <i class="fas fa-envelope"></i>
                   <button class="btn" type="submit">Subscribe</button>
