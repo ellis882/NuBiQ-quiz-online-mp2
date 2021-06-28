@@ -3,7 +3,7 @@
 
 const quiz = [
     {
-        q: 'What year was Netflix founded ?',
+        q: 'What year was Netflix founded?',
         options: ['1990','1994','1997'],
         answer: 2
     },
@@ -13,7 +13,7 @@ const quiz = [
         answer: 1
     },
     {
-        q: 'Which one of the following series WAS NOT part of the first Netflix original series programming ?',
+        q: 'Which one of the following series WAS NOT part of the first Netflix original series programming?',
         options: ['House of Cards','Sons of Anarchy','Hemlock Grove','Orange is the New Black'],
         answer: 1
     },
@@ -23,22 +23,22 @@ const quiz = [
         answer: 1
     },
     {
-        q: 'What was Netflix originally called ?',
+        q: 'What was Netflix originally called?',
         options: ['fibble','kibble','mibble'],
         answer: 1
     },
     {
-        q: 'The Worlds Toughest Prisons are currently one of the most popular series on Netflix in the UK. How many seasons of the show are there ?',
+        q: 'The Worlds Toughest Prisons are currently one of the most popular series on Netflix in the UK. How many seasons of the show are there?',
         options: ['3 seasons','4 seasons','5 seasons','7 Seasons'],
         answer: 2
     },
     {
-        q: 'What is the name of the actress who plays the older Beth in the Queens Gambit ?',
+        q: 'What is the name of the actress who plays the older Beth in the Queens Gambit?',
         options: ['Anya Taylor-Joy','Gemma Arteton','Isla Johnston'],
         answer: 0
     },
     {
-        q: 'Which of the following reality shows is NOT currently on Netflix ?',
+        q: 'Which of the following reality shows is NOT currently on Netflix?',
         options: ['The Real Housewives of Atlanta','Keeping up with the Kardashians','Jersey Shore'],
         answer: 2
     },
@@ -126,6 +126,32 @@ const quiz = [
         q: 'Season one of "You" sees Joe Goldberg meet Guinevere Beck at his place of work, but what job does he do?', 
         options: ['Barista','Supermarket manager','Bookstore manager','Taxi driver'],
         answer: 2
+    },
+    {
+        q: ' How many letters did Lara Jean write in "To all the boys I loved before"?', 
+        options: ['Five','Four','One'],
+        answer: 0
+    },
+    {
+        q: 'Where do Hannah and Clay work in 13 Reasons Why?', 
+        options: ['A Coffee Bar','In a Bookstore','The Cinema','The Supermarket'],
+        answer: 2
+    },
+    {
+        q: 'Which series features Kristen Bell as Eleanor Shellstrop and Ted Danson as Michael?', 
+        options: ['Veronica Mars','Gossip Girl','The Good Place'],
+        answer: 2
+    },
+    {
+        q: 'The Black Hood is a villain in which series?', 
+        options: ['Riverdale','Arrow','Once Upon a Time','Iron Fist'],
+        answer: 0
+    },
+    {
+        q: 'In which Netflix drama does Henry Cavill play Geralt Of Rivia, a superhero monster hunter?', 
+        options: ['Shadow and Bone','The Witcher','Cursed','The Order'],
+        answer: 1
     }
+
 
 ]
