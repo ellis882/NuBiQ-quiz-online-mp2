@@ -264,18 +264,7 @@ window.onload = function (){
     homeBox.querySelector('.total-question').innerHTML = questionLimit;    
 }
 
-// newsletterForm
-let newsletterForm = document.getElementById("newsletter-form");
-newsletterForm.addEventListener('submit', handleSubmit);
-let email;
-function handleSubmit(event){
-    event.preventDefault();
-    
-    email = document.getElementsByClassName("input").value;
-    
-    newsletterForm.submit();   
-    
-}
+
 
 
 
