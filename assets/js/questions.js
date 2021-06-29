@@ -68,7 +68,7 @@ const quiz = [
         answer: 2
     },
     {
-        q: 'How many series of The Crown are currently available on Netflix?', 
+        q: 'How many series of "The Crown" are currently available on Netflix?', 
         options: ['3 seasons','4 seasons','5 seasons'],
         answer: 1
     },
@@ -88,37 +88,37 @@ const quiz = [
         answer: 0
     },
     {
-        q: 'What is the name of the creator of Black Mirror?', 
+        q: 'What is the name of the creator of "Black Mirror"?', 
         options: ['Jon Hamm','Wyatt Russell','Daniel Kaluuva','Charlie Brooker'],
         answer: 3
     },
     {
-        q: 'La Casa de Papel is the original Spanish title of which hit Netflix series?', 
+        q: '"La Casa de Papel" is the original Spanish title of which hit Netflix series?', 
         options: ['Money Heist','Locked Up','Elite'],
         answer: 0
     },
     {
-        q: 'What is Jughead Jones’ real full name in Riverdale?', 
+        q: 'What is Jughead Jones’ real full name in "Riverdale"?', 
         options: ['Forsythe Pendleton Jones III','Cole Pendleton Sprouse II','Archibald Andrews'],
         answer: 0
     },
     {
-        q: 'Who plays the voice of Gossip Girl on the television show?', 
+        q: 'Who plays the voice of "Gossip Girl" on the television show?', 
         options: ['Kristen Bell','Leighton Meester','Hilary Duff'],
         answer: 0
     },
     {
-        q: 'What is the name of Tony’s dog in After Life?', 
+        q: 'What is the name of Tony’s dog in "After Life"?', 
         options: ['Bailey','Charlie','Brandy'],
         answer: 2
     },
     {
-        q: 'Who plays Pablo Escobar in Narcos?', 
+        q: 'Who plays Pablo Escobar in "Narcos"?', 
         options: ['Quinn Dalton','Pedro Pascal','Boyd Holbrook','Wagner Moura'],
         answer: 3
     },
     {
-        q: 'What is the name of the school in Sex Education?', 
+        q: 'What is the name of the school in "Sex Education"?', 
         options: ['Junior High','Moordale High','Torance High'],
         answer: 1
     },
@@ -133,7 +133,7 @@ const quiz = [
         answer: 0
     },
     {
-        q: 'Where do Hannah and Clay work in 13 Reasons Why?', 
+        q: 'Where do Hannah and Clay work in "13 Reasons Why"?', 
         options: ['A Coffee Bar','In a Bookstore','The Cinema','The Supermarket'],
         answer: 2
     },
