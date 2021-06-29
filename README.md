@@ -54,23 +54,23 @@ This is a fictional website designed to engage the user in a unique and fun way 
 -   The Landing page with a picture and text which quiz topic you can play.
 
 -   Three different boxes to play the quiz:
-     The first is the Start box where you can start to play and see how many questions you need to answer. 
-     The second box is where you answer the questions with the options and the little circles to see how many right and wrong you have.
-     Finally you have the Result box where you see the result and the pop up box that thanks you for playing and let you know you can subscribe.
+     The first is the Start box where you can start to play and see how many questions you need to answer. And where you need to fill in a username before you can start.
+     The second box is where you answer the questions with the options and the little circles to see how many right and wrong you have. You need to answer before you can continue to the next question.
+     Finally you have the Result box where you see the result with your username and the pop up box that thanks you for playing and let you know you can subscribe.
 
--   The subscribe section where you can submit your name and email to get the Newsletter.
+-   The subscribe section where you can submit your email to get the Newsletter.
 
 -   The footer shows the icons of the social media links. 
 
 -   Interactive elements like the sidebar for navigation.
-        The quiz boxes and pop up box after playing and the subscribe button with a form to submit.
-        In the footer you can find the social media links.
+    The quiz boxes and pop up box after playing and the subscribe button where you get an alert when clicked to subscribe.
+    In the footer you can find the social media links.
 
    ### Features left to implement in the future
 
--   Submit name and email to receive a Newsletter and stay updated with new quizzes every week.
+-   Submit email to receive a Newsletter and stay updated with new quizzes every week.
 
--   Every week there will be a new type of quiz to play with another subject.
+-   Every week there will be a new type of quiz to play with another subject and questions.
 
 -   The quiz is made so that you can change the questions for a new quiz (in the file questions.js) every week. 
 
@@ -109,17 +109,17 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 
         1. As a First Time Visitor, I want to play a fun online quiz to test my knowledge about Netflix.
 
-            1. Upon entering the site, users are seeing that the quiz questions are about Netflix and they can easily start and play the quiz when push the start button. 
+            1. Upon entering the site, users are seeing that the quiz questions are about Netflix and they can easily start and play the quiz when push the start button after they typed in a username. 
             2. After each question they know if the answer is right or wrong through the color green or red. Than they go to the next question with the next button.
-            3. When they have finished the quiz they get the results right away in a clear table and they can choose to play again or go to the homebox.
-            4. The questions are set up random everytime you play. There are 25 questions in total and it displays just 12 to play. Because the questions are random picked you can play the quiz multiple times.
+            3. When they have finished the quiz they get the results right away in a clear table and they can choose to play again or go to the homebox. They also see the result with their username.
+            4. The questions are set up random everytime you play. There are 30 questions in total and it displays just 12 to play. Because the questions are random picked you can play the quiz multiple times.
 
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to play the quiz.
 
             1. The site has been designed to be clear and easy to use with not a lot of text. At the top of the page there is a side navigation bar that opens when you click on the hamburger button. When you click on a link you go to that section.
-            a. Known Bug is that when you click on the Quiz link it goes to the quiz section but you see also the newsletter section. This looks not that nice.
+            a. Known Bug is that when you click on the Quiz link it goes to the quiz section but you see also the newsletter section. This is because the sections are not that big.
             2. You can play the quiz, subscribe to the Newsletter and connect through the social media links.
-            a. Known Bug is that i used for the form action="https://formdump.codeinstitute.net" because it is a fictional website.
+            a. Known Bug is that i used for the form action="" (empty) because it is a fictional website.
             3. It is a one page website for entertaining purpose and a options to be updated and play different quizzes every week.
 
     
@@ -128,7 +128,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
         1. As a Returning Visitor, I want to play a new fun quiz.
 
             1. Every week you can play a new quiz with different questions if you visit the website.
-            a. Known Bug is that because it is a fictional website made for studie purpose i will not change the questions every week.
+            a. Known Bug is that because it is a fictional website made for studie purpose i will not change the questions every week. But it is possible.
         
         2. As a Returning Visitor, I want to stay connected through the social media links.
 
@@ -139,7 +139,8 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 
         1. As a Frequent User, I want to sign up to the Newsletter to stay updated with the current events of NuBiQ.
 
-            1. Through the Newsletter that you receive in your email you stay updated about which quiz is coming for the next week. It is easy to subscribe with a entering your email that is required to submit.           
+            1. Through the Newsletter that you receive in your email you stay updated about which quiz is coming for the next week. It is easy to subscribe with a entering your email that is required to submit.
+            a. Also here because it is fictional there is not a real newsletter.           
 
 -    #### Owners Goals
 
@@ -155,7 +156,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 
             1. The challenging questions will keep the visitor's attention and curiosity to come back for more.
             2. The quiz is easy to play and gives you the result in percentage and the right and wrong questions.
-            3. When you play and answered a question wrong you will see the right answer too.
+            3. When you play and answered a question wrong you will see the right answer too. But the questions and answers are shuffled so you can play multiple times if you want.
 
         4. As a Owner, I want to provide social media links to stay connected.
 
@@ -176,11 +177,10 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 
     -   On mobile devices the Enter Your Email had covered the whole width of the screen this can look out of proportion.
     -   On mobile devices the open en closed sidebar took out to much space so that the content of the website could not be seen good. Debugged that to take away the open en closed sidebar.
-    -     
+    
+        
 
 ## Deployment
-
-  
 
    **To deploy the project**
 
