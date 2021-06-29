@@ -264,18 +264,25 @@ window.onload = function (){
     homeBox.querySelector('.total-question').innerHTML = questionLimit;    
 }
 
-//------email Newsletter
+// signup to newsletter
+let newsletterForm = document.getElementById("newsletter-form");
+newsletterForm.addEventListener('submit', handleSubmit);
 
-(function(){
-    emailjs.init("user_7wNSV6SVFgZ5A3cLUgIdr");
- })();
- 
- var template_params = {}
- 
- var service_id = "service_vwyz2sa";
- var template_id = "template_d46s0st";
- emailjs.send("service_vwyz2sa","template_d46s0st");
+function handleSubmit(event){
+    event.preventDefault();
+    let email = document.getElementsByClassName("input").value;
+    newsletterForm.submit();
 
+    let html = `Thank You For Subscribing To Our Newsletter! We'll Keep You Updated...`;
+    let response = document.getElementById('response');
+    response.innerHTML = html;
+    response .style.display = 'block';
+    response.style.color = 'white';
+    response.style.fontSize = 'xx-large';
+    response.style.margin = 'auto';
+    
+}
+ 
 
 
 

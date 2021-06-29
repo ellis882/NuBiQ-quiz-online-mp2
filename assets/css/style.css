@@ -474,6 +474,11 @@ body{
 
 }
 
+#response{
+    display: none;
+    
+}
+
 /* footer with soacial media links */
 footer{
     height: 150px;
@@ -574,10 +579,15 @@ body{
     margin-top: 70px;
     background: #e50914;
     color: #000624;
+    font-size: 12px;
 }
 
 .media-icons{
     font-size: 22px;
+}
+
+#nwsletter{
+    height: 500px;
 }
     
 }
