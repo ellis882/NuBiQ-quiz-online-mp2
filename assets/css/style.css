@@ -474,11 +474,6 @@ body{
 
 }
 
-#response{
-    display: none;
-    
-}
-
 /* footer with soacial media links */
 footer{
     height: 150px;
@@ -586,10 +581,7 @@ body{
     font-size: 22px;
 }
 
-#nwsletter{
-    height: 500px;
-}
-    
+  
 }
 
 /* media query for mobile */

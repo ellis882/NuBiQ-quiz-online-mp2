@@ -273,14 +273,7 @@ function handleSubmit(event){
     let email = document.getElementsByClassName("input").value;
     newsletterForm.submit();
 
-    let html = `Thank You For Subscribing To Our Newsletter! We'll Keep You Updated...`;
-    let response = document.getElementById('response');
-    response.innerHTML = html;
-    response .style.display = 'block';
-    response.style.color = 'white';
-    response.style.fontSize = 'xx-large';
-    response.style.margin = 'auto';
-    
+    alert ('Thanks For Subscribing..We"ll Keep You Updated!');    
     
 }
  
