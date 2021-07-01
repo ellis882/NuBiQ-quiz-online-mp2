@@ -102,6 +102,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](testing/html-validator-w3.pdf)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](testing/css3-validator-jigsaw.pdf)
 -   [JavaScript Validator ES6](https://www.piliapp.com/syntax-check/es6/) - [Results app.js](testing/javascript-validator-app-js.pdf) & [Results questions.js](testing/javascript-validator-questions-js.pdf)
+-   [jshint validator](testing/jshint.pdf)
 
     ### Testing User Stories from User Experience (UX) Section
 
@@ -177,6 +178,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 
     -   On mobile devices the Enter Your Email had covered the whole width of the screen this can look out of proportion.
     -   On mobile devices the open en closed sidebar took out to much space so that the content of the website could not be seen good. Debugged that to take away the open en closed sidebar.
+    -   With the jshint validator it gave an error for const and let because it is just available in es6 version.
     
         
 
