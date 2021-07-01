@@ -152,4 +152,4 @@ const quiz = [
         options: ['Shadow and Bone','The Witcher','Cursed','The Order'],
         answer: 1
     }
-]
+];
