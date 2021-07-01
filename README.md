@@ -102,7 +102,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](testing/html-validator-w3.pdf)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](testing/css3-validator-jigsaw.pdf)
 -   [JavaScript Validator ES6](https://www.piliapp.com/syntax-check/es6/) - [Results app.js](testing/javascript-validator-app-js.pdf) & [Results questions.js](testing/javascript-validator-questions-js.pdf)
--   [JSHint](https://jshint.com/)[Result app.js](testing/jshint.pdf) & [Result question.js](testing/jshint question.js.pdf)
+-   [JSHint](https://jshint.com/) - [Result app.js](testing/jshint.pdf) & [Result question.js](testing/jshint-question-js.pdf).
 
     ### Testing User Stories from User Experience (UX) Section
 
