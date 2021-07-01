@@ -118,7 +118,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to play the quiz.
 
             1. The site has been designed to be clear and easy to use with not a lot of text. At the top of the page there is a side navigation bar that opens when you click on the hamburger button. When you click on a link you go to that section.
-            a. Known Bug is that when you click on the Quiz link it goes to the quiz section but you see also the newsletter section. This is because the sections are not that big.
+            a. Known Bug is that when you click on the Quiz link it goes to the quiz section but you see also the newsletter section. This is because the sections are not that big. And you have to press the 'x' to close the sidebar.
             2. You can play the quiz, subscribe to the Newsletter and connect through the social media links.
             a. Known Bug is that i used for the form action="" (empty) because it is a fictional website.
             3. It is a one page website for entertaining purpose and a options to be updated and play different quizzes every week.
@@ -141,7 +141,8 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
         1. As a Frequent User, I want to sign up to the Newsletter to stay updated with the current events of NuBiQ.
 
             1. Through the Newsletter that you receive in your email you stay updated about which quiz is coming for the next week. It is easy to subscribe with a entering your email that is required to submit.
-            a. Also here because it is fictional there is not a real newsletter.           
+            a. Bug also here because it is fictional there is not a real newsletter.
+            b. Bug is that when you subscribe it is not linked to an emailaddress of the company because it is a fictional website so i did not use emailjs. Instead made an alert in javascript to send an window alert that say Thank you for subscribing. So an event is happening when you click on the subscribe button.            
 
 -    #### Owners Goals
 
