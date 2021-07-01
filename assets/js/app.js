@@ -34,7 +34,7 @@ function closeNav() {
 function setAvailableQuestions(){
     const totalQuestion = quiz.length;
     for(let i = 0; i < totalQuestion; i++){
-        availableQuestions.push(quiz[i])
+        availableQuestions.push(quiz[i]);
     }    
 
 }
@@ -76,7 +76,7 @@ function getNewQuestion(){
 
     // set options
     // get the lenght of options
-    const optionLen = currentQuestion.options.length
+    const optionLen = currentQuestion.options.length;
     // push options into availableOptions Array
     for(let i = 0; i < optionLen; i++){
         availableOptions.push(i);
@@ -98,11 +98,11 @@ function getNewQuestion(){
         option.style.animationDelay = animationDelay + 's';
         animationDelay = animationDelay + 0.15;
         option.className = 'option';
-        optionContainer.appendChild(option)
+        optionContainer.appendChild(option);
         option.setAttribute('onclick', 'getResult(this)');
     }
 
-    questionCounter++
+    questionCounter++;
 
 }
 
@@ -110,7 +110,7 @@ function getNewQuestion(){
 function getResult(element){
     // show next button after you had clicked on an option
     if( availableQuestions.length > currentQuestion.options.length){
-        nextButton.classList.remove('hide')
+        nextButton.classList.remove('hide');
     } 
 
     const id = parseInt(element.id);
@@ -154,6 +154,7 @@ function unclickableOptions(){
 
 }
 
+// indicate right and wrong answer to question
 function answersIndicator(){
     answersIndicatorContainer.innerHTML = '';
     const totalQuestion = questionLimit;
@@ -164,11 +165,13 @@ function answersIndicator(){
 
 }
 
+// if question is wrong or right
 function updateAnswerIndicator(markType){
     answersIndicatorContainer.children[questionCounter-1].classList.add(markType);
 
 }
 
+// shows the next question until the questionlimit of 12 
 function next(){
     if (questionCounter === questionLimit){
         quizOver();
@@ -177,12 +180,12 @@ function next(){
         getNewQuestion();
     }
 }
-
+// go to next question after option
 nextButton.addEventListener ('click', () =>{
     currentQuestion.options[optonIndex] ++;
-    getNewQuestion()
+    getNewQuestion();
 
-})
+});
 
 function quizOver(){
     // hide quiz box
@@ -206,6 +209,7 @@ function yourResult(){
   
 }
 
+// reset quiz again
 function resetQuiz(){
     questionCounter = 0;
     correctAnswers = 0;
@@ -262,7 +266,7 @@ function startQuiz(){
 
 window.onload = function (){
     homeBox.querySelector('.total-question').innerHTML = questionLimit;    
-}
+};
 
 // signup to newsletter
 let newsletterForm = document.getElementById("newsletter-form");
