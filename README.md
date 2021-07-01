@@ -88,7 +88,7 @@ This is a fictional website designed to engage the user in a unique and fun way 
     - Google fonts were used to import the 'Lato' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used for the social media links and the envelope to enter your email for the Newsletter.
-1. [Git](https://git-scm.com/)
+1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
@@ -102,7 +102,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](testing/html-validator-w3.pdf)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](testing/css3-validator-jigsaw.pdf)
 -   [JavaScript Validator ES6](https://www.piliapp.com/syntax-check/es6/) - [Results app.js](testing/javascript-validator-app-js.pdf) & [Results questions.js](testing/javascript-validator-questions-js.pdf)
--   [jshint validator](testing/jshint.pdf)
+-   [JSHint](https://jshint.com/)[Result app.js](testing/jshint.pdf) & [Result question.js](testing/jshint question.js.pdf)
 
     ### Testing User Stories from User Experience (UX) Section
 
@@ -171,14 +171,18 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
 -   ### Further Testing
 
     -   The Website was tested on Google Chrome, [Opera](testing/opera-lighthouse-desktop.pdf), [Microsoft Edge](testing/microsoft-edge-issues.pdf) and [Mozilla Firefox](testing/mozilla-firefox-browserconsole.pdf).
-    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5/SE, iPhone 6/7/8(plus), iPad & Ipad Pro.
+    -   The website was viewed with google chrome on a variety of devices such as Desktop, Laptop, iPhone5/SE, iPhone 6/7/8(plus), iPad & Ipad Pro.
     -   The website was tested on [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) for desktop and mobile. [desktop](testing/lighthouse-desktop-nubiq.pdf) & [mobile](testing/lighthouse-mobile-nubiq.pdf)
+    -   The responsivness testing was viewed on website [responsive designchecker](https://responsivedesignchecker.com/#about-responsive). For different inches Desktops, Apple Ipad, Amazon Kindle Fire, Samsung Galaxy Tab 10, Sony Xperia Z2/3 en Samsung Galaxy S5/6/7.
 
 -   ### Known Bugs
 
     -   On mobile devices the Enter Your Email had covered the whole width of the screen this can look out of proportion.
     -   On mobile devices the open en closed sidebar took out to much space so that the content of the website could not be seen good. Debugged that to take away the open en closed sidebar.
     -   With the jshint validator it gave an error for const and let because it is just available in es6 version.
+    -   On mobile devices the text that pops up after your result in the landing page is not fully readable. 
+    -   The browsertesting for Microsoft Edge gave an error on the ms-filter for css that was not supported by Chrome, Chrome android and Samsung internet. And gave a warning that response should include 'x-content-type-options' in the header.
+    -   For Mozilla-Firefox it gave a warning that the keyboard events on the website were not available on some keyboards.
     
         
 
