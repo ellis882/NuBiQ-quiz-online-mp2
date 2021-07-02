@@ -181,7 +181,7 @@ The W3C Markup Validator, W3C CSS Validator Services and JavaScript Validator ES
     -   On mobile devices the Enter Your Email had covered the whole width of the screen this can look out of proportion.
     -   On mobile devices the open en closed sidebar took out to much space so that the content of the website could not be seen good. Debugged that to take away the open en closed sidebar.
     -   With the jshint validator it gave an error for const and let because it is just available in es6 version.
-    -   On mobile devices the text that pops up after your result in the landing page is not fully readable. 
+    -   On mobile devices the text that pops up after your result in the landing page is not fully readable. Had fixed that to add to mediaquery for mobile and put the text-box up.
     -   The browsertesting for Microsoft Edge gave an error on the ms-filter for css that was not supported by Chrome, Chrome android and Samsung internet. And gave a warning that response should include 'x-content-type-options' in the header.
     -   For Mozilla-Firefox it gave a warning that the keyboard events on the website were not available on some keyboards.
     
